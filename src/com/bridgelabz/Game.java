@@ -6,11 +6,13 @@ public class Game {
 		option();
 	}
     
+	
 	public static int rolls_dice() {
     	int dice=(int)(Math.floor(Math.random()*10)%6+1);
     	return dice;
     }
     
+	
 	public static void option() {
     	int position=0;
     	while (position<100) {
@@ -31,5 +33,6 @@ public class Game {
     		}	
     	}
     }
-}    
+}
+
     
